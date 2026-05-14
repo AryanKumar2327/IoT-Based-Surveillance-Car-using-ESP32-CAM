@@ -4,8 +4,8 @@
 #include "esp_http_server.h"
 
 // ===================== WIFI =====================
-const char* ssid = "ESP32_CAR";
-const char* password = "12345678";
+const char* ssid = "YOUR ID";
+const char* password = "YOUR PASSWORD";
 
 WebServer server(80);
 httpd_handle_t stream_httpd = NULL;
